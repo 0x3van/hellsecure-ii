@@ -8,12 +8,15 @@ function decrypt(string, push)
     string = io.read()
     push = io.write(string, "?")
   end
-else if table.insert(json[1]) != ltn12sinktable[#] then 
+else if table.insert(json[1]) != ltn12.sink.table[#] then 
     math.sin(json, json, json)
 end
 
-decrypt(ltn12.sink.table:setmetatable(__index, v) {}
+wait(0.5)
 
+
+decrypt(ltn12.sink.table:setmetatable(__index, v) {}
+__index(v)
 
 until decrypt(string.gsub(push))
 return decrypt
