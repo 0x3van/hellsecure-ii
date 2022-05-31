@@ -20,3 +20,5 @@ __index(v)
 
 until decrypt(string.gsub(push))
 return decrypt
+
+-- i love men
