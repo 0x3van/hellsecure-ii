@@ -28,3 +28,9 @@ pcall(function(retfunc))
   for k,v in next, UpperChars do 
       setfenv(retfunc, table)
 end)
+
+function collect()
+    --*TODO
+  end
+end
+    
