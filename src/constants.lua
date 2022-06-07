@@ -4,7 +4,7 @@ local getfenv, setfenv = getfenv or function()
 end, setfenv or function(s, d)
     _ENV[s] = d 
 end
-
+-- cock and ball gaming 
 local the_time = os.clock()
 me = require("gen").Memes
 
