@@ -21,3 +21,10 @@ __index(v)
 until decrypt(string.gsub(push))
 return decrypt
 
+
+function pop(table)
+  local key = table[#table]
+until key == nil
+  table = nil
+end
+

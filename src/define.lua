@@ -24,8 +24,20 @@ __newindex(define, '__newindex', function(t, k, v)
         rawset(t, k, v)
     else
         rawset(t, k, v)
+    until rawset(t,k,v) == nil 
     end
 end)
+
+__div(define, '__div', function(_, k, v)
+    if type(k) == 'function' then 
+        setfenv(_, _)
+    else
+        setfenv(t, k)
+    else if type(v) == 'function' then 
+        setfenv(v, _)
+    else
+        setfenv(v, _)
+    end)
 
 -- call thread
 for i=1,2 do 
@@ -65,6 +77,7 @@ string = (function(s)
     local t = {}
     for i=1,#s do
         t[i] = s:sub(i,i)
+        return math.sin(t[i])
     end
     return t
 end)(r(1, 1, 1, 1, 1, 1, 1, 1111))
