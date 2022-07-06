@@ -5,6 +5,7 @@ local util = require('util')
 local scope = require('scope')
 local define = {}
 local r = math.random
+local collector = require('collector')
 
 print(_ENV)
 local a = io.read()
@@ -73,9 +74,3 @@ print(insertobfscr(t,k))
 
 -- main part over here
 print()
--- end main part
-
-
--- dump gc var
-getgc()
-coroutine.yield()

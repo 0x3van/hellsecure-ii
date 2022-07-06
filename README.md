@@ -1,1 +1,1 @@
-# hellsecure-iiprivi wanna kill myself# how to run`cd src`> put your stupid script in input.lua`lua main.lua`> open output filedonesexrealcum
+# Hellsecure v2privi wanna kill myself# how to run`cd src`> put your stupid script in input.lua`lua main.lua`> open output file#### i love men
