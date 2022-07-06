@@ -9,3 +9,11 @@ for i,v in next, _G do
         print(i)
     end
 end
+
+string.gsub(v, "([%w_]+)", function(w))
+    print(w)
+end)
+
+
+-- use shitty lua regexp
+
