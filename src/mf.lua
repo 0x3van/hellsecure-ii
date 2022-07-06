@@ -12,5 +12,10 @@ end
 
 if get_random_string(length.len()) >= gen.maxlength() then 
     print(get_random_string(length.len()))
-    print("error: buffer overflow attempt detected.")
+    print("error: integer overflow attempt detected.")
+    -- call lua c to return 1
+    os.exit(1)
+    getfenv(v, __div{})
 end
+end
+
