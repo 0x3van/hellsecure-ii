@@ -16,3 +16,8 @@ im retarded
 > open output file
 
 #### i love men
+
+
+
+# licensing information
+this project is licensed under the trollface security license. view more at https://trollsec.cf
